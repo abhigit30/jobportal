@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetYourJob</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images (1).png" alt="Company Logo" class="logo-img">
+                <h1>GetYourJob</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Job Profiles</h2>
+            <ul>
+                <li><a href="#">Software Engineer</a></li>
+                <li><a href="#">Data Scientist</a></li>
+                <li><a href="#">Product Manager</a></li>
+                <li><a href="#">UI/UX Designer</a></li>
+                <li><a href="#">DevOps Engineer</a></li>
+                <li><a href="#">QA Engineer</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            
+            <section>
+                <h2>Company Job Requirements</h2>
+                <div class="search-bar">
+                    <input type="text" id="search" placeholder="Search jobs...">
+                </div>
+                <div class="job-requirement">
+                    <h3>Google</h3>
+                    <p>We are seeking a skilled Software Engineer with 3+ years of experience in JavaScript and React. 
+                        The ideal candidate will be responsible for developing and maintaining web applications, 
+                        ensuring high performance and responsiveness.</p>
+                </div>
+                <div class="job-requirement">
+                    <h3>FireFox</h3>
+                    <p>Hiring a Data Scientist proficient in Python and Machine Learning. 
+                        You will work on analyzing large datasets, developing predictive models, 
+                        and deriving actionable insights to support business decisions.
+                    </p>
+                </div>
+                <div class="job-requirement">
+                    <h3>WorkForce</h3>
+                    <p>We are looking for a Product Manager with a strong background in Agile methodologies. 
+                        You will oversee product development from conception to launch, 
+                        ensuring alignment with business goals and user needs.</p>
+                </div>
+                <div class="job-requirement">
+                    <h3>Oracle</h3>
+                    <p>Seeking a creative UI/UX Designer with experience in Figma and Adobe XD. 
+                        You will design intuitive and visually appealing user interfaces, 
+                        enhancing user experience across our digital platforms.</p>
+                </div>
+                <div class="job-requirement">
+                    <h3>IBM</h3>
+                    <p>Looking for a Software Engineer with 3+ years of experience in JavaScript and React.</p>
+                </div>
+                <div class="job-requirement">
+                    <h3>Zomato</h3>
+                    <p>Looking for a DevOps Engineer with expertise in AWS and CI/CD pipelines. 
+                        You will manage infrastructure, automate deployment processes, 
+                        and ensure system reliability and scalability.
+                    </p>
+                </div>
+                <div class="job-requirement">
+                    <h3>Zydus</h3>
+                    <p>Seeking a QA Engineer with a strong background in automated testing. 
+                        You will design and execute test cases, identify and document defects, 
+                        and work closely with the development team to ensure software quality.</p>
+                </div>
+                <div class="job-requirement">
+                    <h3>Flipkart</h3>
+                    <p>Looking for a Business Analyst with strong analytical and problem-solving skills. 
+                        You will gather and analyze business requirements, create detailed documentation, 
+                        and work with stakeholders to improve business processes.</p>
+                </div>
+                <br>
+                <section id="about">
+                    <h2>About Us</h2>
+                    <p style="text-align: justify;font-size: large;">
+                        At GetYourJob, we connect top talent with leading companies. 
+                        Our platform is designed to streamline the job search process, 
+                        offering a wide range of opportunities across various industries. 
+                        We are dedicated to helping job seekers find their ideal roles and 
+                        enabling employers to discover the best candidates. 
+                        With an easy-to-navigate interface and powerful search features, 
+                        JobPortal makes it simple to find your next career move. 
+                        Join us today and take the next step in your professional journey.</p>
+                </section>
+                <br>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+    <br>
+    <footer>
+        <p>&copy; 2024 GetYourJob. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
